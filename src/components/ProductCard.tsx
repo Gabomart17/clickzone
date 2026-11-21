@@ -5,7 +5,7 @@ import type { Producto } from "@/types/producto";
 // y se reutiliza tanto en Server como en Client Components.
 // Record<Categoria, string> obliga a cubrir TODAS las categorías: si agregamos
 // una nueva al tipo, TypeScript nos avisa que falta su emoji.
-const iconos: Record<Producto["categoria"], string> = {
+export const iconos: Record<Producto["categoria"], string> = {
   mouse: "🖱️",
   teclado: "⌨️",
   headset: "🎧",

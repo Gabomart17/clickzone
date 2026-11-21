@@ -8,10 +8,8 @@
 }
 
 body {
-  background: #09090b;
-  /* zinc-950 */
-  color: #f4f4f5;
-  /* zinc-100 */
+  background: #09090b; /* zinc-950 */
+  color: #f4f4f5; /* zinc-100 */
   /* La variable la define next/font en layout.tsx; system-ui es el respaldo */
   font-family: var(--font-geist-sans), system-ui, sans-serif;
 }

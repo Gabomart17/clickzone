@@ -2,7 +2,6 @@ import type { Producto } from "@/types/producto";
 
 // Datos de ejemplo. Usamos un archivo TS (y no un .json) para que
 // TypeScript valide que cada producto cumple el tipo "Producto".
-// Ajustá nombres, precios y specs a tu gusto.
 export const productos: Producto[] = [
   {
     id: "1",

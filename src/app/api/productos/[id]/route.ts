@@ -5,7 +5,6 @@ import { productos } from "@/data/productos";
 export async function GET(
   _request: Request, // el guion bajo indica que no lo usamos (ESLint no se queja)
   // En Next 15+ "params" es una Promise, por eso hay que hacerle await.
-  // Si lo usás directo como objeto (estilo Next 14), te da error.
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params;
